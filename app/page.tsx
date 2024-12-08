@@ -1,7 +1,7 @@
 
 export default function HOomePage(){
   return(
-    <div className="body h-[8479px] w-[1920px] bg-[#0d0d0d]">
+    <div className="body h-[9679px] w-[1920px] bg-[#0d0d0d]">
         
         {/* header */}
         <div className="h-[950px] w-[1920px]  ">
@@ -470,9 +470,209 @@ export default function HOomePage(){
 */}
 
    <div className="h-[732px] w-[1320px] mt-[200px] mr-auto ml-auto">
+        <div className="h-[40px] w-[124px] mr-auto ml-auto 
+            bg-[url('/images/cur-writing-8.png')] bg-cover">
+        </div>
 
+        <h2 className="font-bold text-[48px] ml-[445px]">
+          <span className="text-[#ff9f0d]">La</span>test News & Blog
+        </h2>       
     
+        <div className="h-[569px] w-[1320px] flex justify-between mt-[50px]">
+
+            {/* div-1 */}
+            <div className="h-[569px] w-[424px] border">
+               <div className="h-[349px] w-[423px] bg-[url('/images/news1.png')] bg-cover"></div>
+               
+               <p className="font-normal text-[16px] mt-[30px] text-[#ff9f0d] ml-[40px]">10 February 2022 </p>
+
+               <h2 className="font-bold text-[24px] mt-[20px] ml-[40px]">Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis</h2>
+
+               <div className="flex justify-between mt-[30px]">
+                  <p className="font-normal text-[16px] ml-[40px]">Learn More</p>
+                  <div className="h-[20px] w-[76px] flex justify-between mr-[40px]">
+                     <div className="h-[20px] w-[20px] bg-[url('/images/like.png')] bg-cover"></div>
+                     <div className="h-[20px] w-[20px] bg-[url('/images/comm.png')] bg-cover"></div>
+                     <div className="h-[20px] w-[20px] bg-[url('/images/shar.png')] bg-cover"></div>
+                  </div>
+               </div>
+            </div>
+
+            {/* div-2 */}
+            <div className="h-[569px] w-[424px] border">
+               <div className="h-[349px] w-[423px] bg-[url('/images/news2.png')] bg-cover"></div>
+               
+               <p className="font-normal text-[16px] mt-[30px] text-[#ff9f0d] ml-[40px]">10 February 2022 </p>
+
+               <h2 className="font-bold text-[24px] mt-[20px] ml-[40px]">Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis</h2>
+
+               <div className="flex justify-between mt-[30px]">
+                  <p className="font-normal text-[16px] ml-[40px]">Learn More</p>
+                  <div className="h-[20px] w-[76px] flex justify-between mr-[40px]">
+                     <div className="h-[20px] w-[20px] bg-[url('/images/like.png')] bg-cover"></div>
+                     <div className="h-[20px] w-[20px] bg-[url('/images/comm.png')] bg-cover"></div>
+                     <div className="h-[20px] w-[20px] bg-[url('/images/shar.png')] bg-cover"></div>
+                  </div>
+               </div>
+            </div>
+
+            {/* div-3 */}
+            <div className="h-[569px] w-[424px] border">
+               <div className="h-[349px] w-[423px] bg-[url('/images/news3.png')] bg-cover"></div>
+               
+               <p className="font-normal text-[16px] mt-[30px] text-[#ff9f0d] ml-[40px]">10 February 2022 </p>
+
+               <h2 className="font-bold text-[24px] mt-[20px] ml-[40px]">Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis</h2>
+
+               <div className="flex justify-between mt-[30px]">
+                  <p className="font-normal text-[16px] ml-[40px]">Learn More</p>
+                  <div className="h-[20px] w-[76px] flex justify-between mr-[40px]">
+                     <div className="h-[20px] w-[20px] bg-[url('/images/like.png')] bg-cover"></div>
+                     <div className="h-[20px] w-[20px] bg-[url('/images/comm.png')] bg-cover"></div>
+                     <div className="h-[20px] w-[20px] bg-[url('/images/shar.png')] bg-cover"></div>
+                  </div>
+               </div>
+            </div>
+
+        </div>
    </div>
+
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-10-FOOTER
+*/}
+
+  <div className="h-[740.12px] w-[1920px] mt-[200px] ">
+       
+       {/* div-1 */}
+       <div className="h-[142.62px] w-[1170px] flex justify-between ml-auto mr-auto">
+                    {/* box-1 */}
+          <div className="h-[80px] w-[1170px] font-bold text-[32px] flex justify-between ">
+              <div>
+                <h2><span className="text-[#ff9f0d]">St</span>ill You Need Our Support ?</h2>
+                <p className="font-normal text-[16px] mt-[20px]">Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+              </div>
+          </div>
+
+                   {/* box-2 */}
+          <div className="h-[52px] w-[599px] flex ">
+             <input className="bg-[#ff9f0d] text-[#ffffff] h-[52px] pl-[20px]" type="text" placeholder="Enter Your Email" />
+             
+             <button className="text-[#ff9f0d] bg-[#ffffff] h-[52px] w-[163px]">
+                Subscribe Now
+             </button>
+          </div>
+
+       </div>
+
+       {/* div-2 hr-line */}
+       <div className="h-[4px] w-[1170px] ml-auto mr-auto
+           bg-[url('/images/orange-line.png')] bg-cover">
+
+       </div>
+
+
+
+       {/* div-3  */}
+      <div className="h-[367px] w-[1320px] ml-auto mr-auto flex justify-between mt-[100px]">
+         {/* box-1 */}
+         <div className="h-[367px] w-[312px]">
+             <h2 className="font-bold text-[24px]">About Us.</h2>
+             <p className=" mt-[20px]">
+              orporate clients and leisure travelers has
+              been relying on Groundlink for dependab
+              safe, and professional chauffeured car
+              service in major cities across World.
+             </p>
+            <div className="h-[74px] w-[250px] flex justify-between items-center mt-[30px]">
+               <div className="h-[72px] w-[78px] bg-[url('/images/foot1.png')] bg-cover"></div>
+               <div className="h-[74px] w-[149px] font-normal text-[14px]">
+                   <p className="text-[18px]">Opening Houres</p>
+                   <p>Mon - Sat(8.00 - 6.00)</p>
+                   <p>Sunday - Closed</p>
+               </div> 
+            </div>
+         </div>
+{/*----------------------------------------------------------
+          box-2 */}
+          <div className="h-[367px] w-[149px]">
+             <ul>
+               <h2 className="font-bold text-[20px] ">Useful Links</h2>
+               <li className="mt-[20px] text-[20px]"><a>About</a></li>
+               <li className="mt-[20px] text-[20px]"><a>News</a></li>
+               <li className="mt-[20px] text-[20px]"><a>Partners</a></li>
+               <li className="mt-[20px] text-[20px]"><a>Team</a></li>
+               <li className="mt-[20px] text-[20px]"><a>Menu</a></li>
+               <li className="mt-[20px] text-[20px]"><a>Contacts</a></li>
+             </ul>
+          </div> 
+
+{/*----------------------------------------------------------
+          box-3 */}
+          <div className="h-[367px] w-[170px]">
+             <ul>
+               <h2 className="font-bold text-[20px] ">Help?</h2>
+               <li className="mt-[17px] text-[20px]"><a>FAQ</a></li>
+               <li className="mt-[17px] text-[20px]"><a>Term & Conditions</a></li>
+               <li className="mt-[17px] text-[20px]"><a>Reporting</a></li>
+               <li className="mt-[17px] text-[20px]"><a>Documentation</a></li>
+               <li className="mt-[17px] text-[20px]"><a>Support Policy</a></li>
+               <li className="mt-[17px] text-[20px]"><a>Privacy</a></li>
+             </ul>
+          </div> 
+
+{/*----------------------------------------------------------
+          box-3 */}
+          <div className="h-[367px] w-[244px]">
+             <h2 className="font-bold text-[20px] ">Recent Post</h2>
+            
+             <div className="w-[244px] h-[53px] flex justify-between mt-[20px]">
+                <div className="w-[59px] h-[48px] bg-[url('/images/foot2.png')] bg-cover"></div>
+                <div>
+                  <p className="text-[16px] text-[gray]">20 Feb 2022</p>
+                  <p className="text-[18px]">Keep Your Business </p>
+                </div>
+             </div>
+
+             <div className="w-[244px] h-[53px] flex justify-between mt-[20px]">
+                <div className="w-[59px] h-[48px] bg-[url('/images/foot3.png')] bg-cover"></div>
+                <div>
+                  <p className="text-[16px] text-[gray]">20 Feb 2022</p>
+                  <p className="text-[18px]">Keep Your Business </p>
+                </div>
+             </div>
+
+             <div className="w-[244px] h-[53px] flex justify-between mt-[20px]">
+                <div className="w-[59px] h-[48px] bg-[url('/images/foot4.png')] bg-cover"></div>
+                <div>
+                  <p className="text-[16px] text-[gray]">20 Feb 2022</p>
+                  <p className="text-[18px]">Keep Your Business </p>
+                </div>
+             </div>
+          </div>     
+     
+      </div>
+
+      {/* div-4 */}
+      <div className="h-[100px] w-[1920px] bg-[#4f4f4f] ">
+         
+         <div className="mt-[40px] pt-[50px] h-[34px] w-[1320px] flex justify-between items-center ml-auto mr-auto">
+            
+            {/* box-1 */}
+            <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
+
+            {/* box-2 */}
+            <div className="h-[32px] w-[240px]
+              bg-[url('/images/social-icon.png')] bg-cover">
+
+            </div>
+
+         </div>
+
+      </div>
+      
+
+  </div>
 
 
 
