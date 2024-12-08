@@ -165,84 +165,314 @@ export default function HOomePage(){
 
  {/* 
 -------------------------------------------------------------------------------------------------
-        container-3 -food-items */}
+        container-4 -food-items-tastes */}
 
+      <div className="h-[562px] w-[1320px] flex justify-between ml-[295px] mt-[300px]">
 
+         
+          {/* div-1 */}
+        <div>
+              {/* box-1 */}
+          <div className="h-[356px] w-[660px] flex justify-between ">
+             <div className="h-[356px] w-[362px] bg-[url('/images/food-tas-1.png')] bg-cover"></div>
+             <div className="h-[231px] w-[281px] bg-[url('/images/food-tas-2.png')] bg-cover mt-[126px]"></div>
+          </div>
+               {/* box-2 */}
+          <div className="h-[356px] w-[660px] flex justify-between  mt-[30px]">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* ----------------------------------------------------------------------- */}
-{/* 
-        container-2
-        SOICAL MEDIA        */}
-        {/* <div className="w-[216px] h-[24px] flex justify-between items-center mt-[60px] ml-[700px]">
-           <div className="w-[24px] h-[24px] bg-[url('/images/social-1.png')] bg-cover"></div>
-           <div className="w-[24px] h-[24px] bg-[url('/images/social-2.png')] bg-cover"></div>
-           <div className="w-[24px] h-[24px] bg-[url('/images/social-3.png')] bg-cover"></div>
-           <div className="w-[24px] h-[24px] bg-[url('/images/social-4.png')] bg-cover"></div>
-           <div className="w-[24px] h-[24px] bg-[url('/images/social-5.png')] bg-cover"></div>
-           
-        </div>      
-
-
-{/* 
-        container-3
-        items        */}
-        {/* <div className="w-[312px] h-[382px] mt-[60px] ml-[700px]">
-           <div className="w-[312px] h-[312px] bg-[url('/images/cheif-1.png')] bg-cover"></div>
-           <div className="text-center mt-[10px]">
-             <h4 className="font-bold text-lg">Bulbul Hassan</h4>
-             <p className="font-normal text-base mt-[7px]">Chef</p>
-           </div>
-        </div>       
-
-
-        <div className="w-[443px] h-[98px] mt-[60px] ml-[700px] flex justify-between">
-           <div className="w-[100px] h-[98px] bg-[url('/images/coffee-icon.png')] bg-cover"></div>
-           <div>
-              <h3 className="h-[32px] w-[225px] font-bold text-2xl">High quality coffee</h3>
-              <p className="h-[48px] w-[331px] font-normal text-base mt-[7px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo augue nibh .</p>
-           </div>
-
+             <div className="h-[306px] w-[244px] bg-[url('/images/food-tas-3.png')] bg-cover"></div>
+             <div className="h-[226px] w-[221px] bg-[url('/images/food-tas-4.png')] bg-cover"></div>
+             <div className="h-[px] w-[161px]">
+               <div className="h-[166px] w-[161px] bg-[url('/images/food-tas-5.png')] bg-cover"></div>
+               <div className="h-[166px] w-[161px] bg-[url('/images/food-tas-6.png')] bg-cover mt-[20px]"></div>
+             </div>
+              
+          </div>
         </div>
-  */}
 
-        {/* <div className="w-[312px] h-[446px] mt-[60px] ml-[700px]">
-           <div className="w-[312px] h-[379.17px] bg-[url('/images/cheif-2.png')] bg-cover"></div>
-           <div className="text-center mt-[10px]">
-             <h4 className="font-bold text-lg">Tahmina Rumi</h4>
-             <p className="font-normal text-base mt-[7px]">Chef</p>
+           {/* div-2 */}
+          <div className="h-[650px] w-[562px] mt-[50px]">
+
+              <div className="h-[40px] w-[175px] bg-[url('/images/cur-writing-4.png')] bg-cover"></div>
+              <h1 className="h-[112px] w-[473px] font-bold text-[48px]">
+                  <span className="text-[#FF9F0D]">Ex</span>ta ordinary taste And Experienced 
+              </h1>      
+              <p className="h-[120px] w-[526px] mt-[50px] font-normal text-[16px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.              
+              </p>
+                 
+             <div className="h-[135px] w-[374px] mt-[50px] flex justify-between">
+                <div>
+                  <div className="h-[100px] w-[102px] bg-[#ff9f0d] rounded-md pl-[20px] pt-[20px]">
+                      <div className="h-[56px] w-[56px] bg-[url('/images/taste-1.png')] bg-cover"></div>
+                  </div>
+                  <p className="font-normal text-[18px] text-center mt-[10px]">Fast Food</p>
+                </div>
+
+                <div>
+                  <div className="h-[100px] w-[102px] bg-[#ff9f0d] rounded-md pl-[20px] pt-[20px]">
+                      <div className="h-[56px] w-[56px] bg-[url('/images/taste-2.png')] bg-cover"></div>
+                  </div>
+                  <p className="font-normal text-[18px] text-center mt-[10px]">Lanuch</p>
+                </div>
+
+                <div>
+                  <div className="h-[100px] w-[102px] bg-[#ff9f0d] rounded-md pl-[20px] pt-[20px]">
+                      <div className="h-[56px] w-[56px] bg-[url('/images/taste-3.png')] bg-cover"></div>
+                  </div>
+                  <p className="font-normal text-[18px] text-center mt-[10px]">Dinner</p>
+                </div>
+             </div>
+
+             <div className="h-[93px] w-[374px] mt-[50px]
+                bg-[url('/images/taste-exp.png')] bg-cover">
+             </div>
+              {/* div-2 */}
+          </div>
+
+
+      </div>
+
+ 
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-5- services
+*/}
+
+   <div className="h-[469px] w-[1920px] mt-[600px]">
+       
+       <div className="h-[247px] w-[1320px] ml-auto mr-auto flex justify-between">
+              {/* box-1 */}
+           <div className="h-[247px] w-[218px]">
+              <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-1.png')] bg-cover"></div>
+              <p className="font-normal text-[24px]">Professional Chefs</p>
+              <h2 className="font-bold text-[40px]">420</h2>
+ 
            </div>
+          
+           {/* box-2 */}
+           <div className="h-[247px] w-[162px]">
+              <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-2.png')] bg-cover"></div>
+              <p className="font-normal text-[24px]">Items Of Food</p>
+              <h2 className="font-bold text-[40px]">320</h2>
+ 
+           </div> 
+
+           {/* box-3 */}
+           <div className="h-[247px] w-[248px]">
+              <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-3.png')] bg-cover"></div>
+              <p className="font-normal text-[24px]">Years Of Experienced</p>
+              <h2 className="font-bold text-[40px]">30+</h2>
+ 
+           </div>
+
+           {/* box-4 */}
+           <div className="h-[247px] w-[206px]">
+              <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-4.png')] bg-cover"></div>
+              <p className="font-normal text-[24px]">Happy Customers</p>
+              <h2 className="font-bold text-[40px]">220</h2>
+ 
+           </div>
+
+
+       </div>
+
+   </div>
+
+
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-5- Menu
+*/}
+
+   <div className="h-[656px] w-[1320px] mt-[200px] mr-auto ml-auto">
+       <div className="h-[40px] w-[144px] mr-auto ml-auto
+           bg-[url('/images/cur-writing-5.png')] bg-cover">
+       </div>
+
+       <h2 className="font-bold text-[48px] ml-[475px]">
+        <span className="text-[#ff9f0d]">Fr</span>om Our Menu
+       </h2>
+
+       <div className="h-[28px] w-[1056px] flex justify-between items-center mt-[50px]">
+         <a className="text-[#ff9f0d]">Breakfast</a>
+         <a>Lunch</a>
+         <a>Dinner</a>
+         <a>Desert</a>
+         <a>Drinks</a>
+         <a>Snacks</a>
+         <a>Soups</a>
+       </div>
+
+       <div className="w-[1320px] h-[406px] flex justify-between mt-[50px]">
+          {/* box-1 */}
+          <div className="w-[515px] h-[406px] bg-[url('/images/main-menu.png')] bg-cover">
+                 <div className="w-[366px] h-[362px] bg-[url('/images/main-menu-sub.png')] bg-cover mt-[30px] ml-[50px]"></div>
+          </div>
+
+            {/* box-2 */}
+          <div className="w-[386px] h-[406px] ">
+                     {/* dabba-1 */}
+               <div className="w-[386px] h-[79px] flex justify-between ">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu1.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Lettuce Leaf</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">12.5$</h4>
+                    </div>
+               </div>
+
+                   {/* dabba-2 */}
+               <div className="w-[386px] h-[79px] flex justify-between mt-[25px]">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu2.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Fresh Breakfast</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">14.5$</h4>
+                    </div>
+               </div>
+
+                   {/* dabba-3 */}
+               <div className="w-[386px] h-[79px] flex justify-between mt-[25px]">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu3.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Mild Butter</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">12.5$</h4>
+                    </div>
+               </div>
+
+                   {/* dabba-4 */}
+               <div className="w-[386px] h-[79px] flex justify-between mt-[25px]">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu4.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Fresh Bread</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">12.5$</h4>
+                    </div>
+               </div>
+          </div>
+
+            {/* box-3 */}
+            <div className="w-[386px] h-[406px] ">
+                     {/* dabba-1 */}
+               <div className="w-[386px] h-[79px] flex justify-between ">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu5.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Glow Cheese</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">12.5$</h4>
+                    </div>
+               </div>
+
+                   {/* dabba-2 */}
+               <div className="w-[386px] h-[79px] flex justify-between mt-[25px]">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu6.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Italian Pizza</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">14.5$</h4>
+                    </div>
+               </div>
+
+                   {/* dabba-3 */}
+               <div className="w-[386px] h-[79px] flex justify-between mt-[25px]">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu7.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Sllice Beef</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">12.5$</h4>
+                    </div>
+               </div>
+
+                   {/* dabba-4 */}
+               <div className="w-[386px] h-[79px] flex justify-between mt-[25px]">
+                    <div className="w-[80px] h-[79px] bg-[url('/images/menu8.png')] bg-cover"></div>
+
+                    <div className="h-[79px] w-[300px] font-bold ">
+                       <h3 className="text-[28px]">Mushaom Pizza</h3>
+                       <p className="text-[14px] font-normal">Lacus nisi, et ac dapibus velit in consequat.</p>
+                       <h4 className="text-[18px] text-[#ff9f0d]">12.5$</h4>
+                    </div>
+               </div>
+          </div>
+       </div>
+
+   </div>
+
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-6- cheifs
+*/}
+
+    <div className="h-[656px] w-[1320px] mt-[200px] mr-auto ml-auto">
+        <div className="h-[40px] w-[56px] mr-auto ml-auto 
+            bg-[url('/images/cur-writing-6.png')] bg-cover">
         </div>
-  */}
+
+        <h2 className="font-bold text-[48px] ml-[475px]">
+          <span className="text-[#ff9f0d]">Me</span>et Our Chef
+        </h2>       
+
+        <div className="h-[391px] w-[1320px] flex justify-between mt-[65px]">
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-1.png')] bg-cover"></div>
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-2.png')] bg-cover"></div>
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-3.png')] bg-cover"></div>
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-4.png')] bg-cover"></div>
+         </div>
+
+    </div>
+
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-7- cutomer expre
+*/}
+
+<div className="h-[770px] w-[1273px] mt-[200px] mr-auto ml-auto">
+    
+    <div className="h-[40px] w-[128px]
+       bg-[url('/images/cur-writing-7.png')] bg-cover">
+    </div>
+ 
+    <h2 className="font-bold text-[48px]">What our client are saying</h2>
+
+    <div className="h-[600.89px] w-[868.47px] bg-[url('/images/cus-exp-bg.png')] bg-cover ml-auto mr-auto mt-[50px]">
+         <div className="h-[485.89px] w-[696.57px] ml-[125px]
+             bg-[url('/images/cus-exp.png')] bg-cover">
+         </div>
+    </div>
+</div>
+
+
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-8- providing
+*/}
+
+
+     <div className="h-[560px] w-[1920px] mt-[200px] 
+
+           bg-[url('/images/provide.png')] bg-cover">
+
+     </div>
+    
+
+ {/* 
+-------------------------------------------------------------------------------------------------
+        container-9-latest NEw
+*/}
+
+   <div className="h-[732px] w-[1320px] mt-[200px] mr-auto ml-auto">
+
+    
+   </div>
 
 
 
