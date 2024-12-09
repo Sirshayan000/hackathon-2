@@ -1,18 +1,22 @@
 
 export default function HOomePage(){
   return(
-    <div className="body h-[9679px] w-[1920px] bg-[#0d0d0d]">
+    <div className="body h-[9879px] w-[1920px] bg-[#0d0d0d] 
+                  max-lg:w-[480px] max-lg:h-[14000px] border">
         
         {/* header */}
-        <div className="h-[950px] w-[1920px]  ">
+        <div className="h-[950px] w-[1920px]
+                        max-lg:w-[480px] max-lg:h-[750px]  ">
 
       
       {/* nav */}
-          <div className="h-[87spx] w-[1320px] flex justify-between ml-auto mr-auto mt-[100px]">
+          <div className="h-[87spx] w-[1320px] flex justify-between ml-auto mr-auto mt-[100px]
+                          max-lg:w-[420px]">
                
               
              {/* div-1-sections */}
-            <div className="h-[24px] w-[508px] text-[#ffffff] flex justify-between items-center text-base">
+            <div className="h-[24px] w-[508px] text-[#ffffff] flex justify-between items-center text-base
+                            max-lg:hidden">
                <div className="mt-2">
                   <a className="">Home</a>
                   <div className="h-[7px] w-[7px] bg-[url('/images/orange-dot.png')] bg-cover ml-auto mr-auto"></div>
@@ -30,7 +34,8 @@ export default function HOomePage(){
             </div>
 
               {/* div-2-logo */}
-             <div className="h-[32px] w-[109px] font-bold text-2xl mt-[-45px] mr-[250px]">
+             <div className="h-[32px] w-[109px] font-bold text-2xl mt-[-45px] mr-[250px]
+             max-lg:mt-0 max-lg:text-4xl">
                <h1>Food
                  <span className="text-[#FF9F0D]">tuck</span>
                </h1>   
@@ -39,10 +44,11 @@ export default function HOomePage(){
              
 
              {/* div-3-icons */}
-            <div className="h-[54px] w-[350px] flex justify-between items-center">
-                <div className="h-[54px] w-[310px] border border-[#FF9F0D] rounded-[27px] flex justify-evenly items-center">
-                  <input className="bg-[#0d0d0d] ml-[15px] text-[#ffffff]" type="text" placeholder="Search..." />
-                  <div className="h-[24px] w-[24px] mr-[15px] bg-[url('/images/magni.png')] bg-cover"></div>
+            <div className="max-lg:w-[30px] h-[54px] w-[350px] flex justify-between items-center">
+                <div className=" max-lg:border-none h-[54px] w-[310px] border border-[#FF9F0D] rounded-[27px] flex justify-evenly items-center">
+                  <input className="max-lg:hidden bg-[#0d0d0d] ml-[15px]  text-[#ffffff]" type="text" placeholder="Search..." />
+                  <div className="h-[24px] w-[24px] mr-[15px] bg-[url('/images/magni.png')] bg-cover 
+                                  max-lg:bg-[url('/images/magni.png')]"></div>
                 </div>
                 <div className="h-[24px] w-[24px] bg-[url('/images/shop.png')] bg-cover"></div>
 
@@ -52,9 +58,9 @@ export default function HOomePage(){
           </div>
        
        {/* below-the-nav */}
-       <div className="flex ">
+       <div className="flex max-lg:block">
        {/* div-1 */}
-         <div className="ml-[245px] mt-[100px] h-[492px] w-[520px] flex justify-between items-center ">
+         <div className="ml-[245px] mt-[100px] h-[492px] w-[520px] flex justify-between items-center max-lg:ml-1">
              <div className="h-[492px] w-[25.28px] 
                  bg-[url('/images/social-acc.png')] bg-cover">
              </div>
@@ -63,7 +69,7 @@ export default function HOomePage(){
                 <div className="h-[40px] w-[249px]
                    bg-[url('/images/cur-writing.png')] bg-cover">
                 </div>
-                <h1 className="h-[136px] w-[499px] font-bold text-[60px]">
+                <h1 className="h-[136px] w-[499px] font-bold text-[60px] max-lg:text-[50px]">
                   <span className="text-[#FF9F0D]">Th</span>e Art of speed food Quality
                 </h1>
                 <p className="h-[48px] w-[418px] mt-[70px] font-normal text-[16px]">
@@ -79,7 +85,7 @@ export default function HOomePage(){
          </div>
 
          {/* div-2 */}
-         <div className="h-[670px] w-[877.7px] mt-[150px] ml-[200px]
+         <div className="h-[670px] w-[877.7px] mt-[150px] ml-[200px] max-lg:ml-0 max-lg:hidden
                  bg-[url('/images/hero-img.png')] bg-cover">
          </div>
 
@@ -90,9 +96,10 @@ export default function HOomePage(){
         </div>
 {/* 
 -------------------------------------------------------------------------------------------------
-        container-2 -food-products */}
+        container-2 -food-products bo */}
         
-      <div className="h-[562px] w-[1320px] flex justify-between ml-[295px] mt-[300px]">
+      <div className="h-[562px] w-[1320px] flex justify-between ml-[295px] mt-[300px] 
+                      max-lg:block max-lg:mt-[100px] max-lg:ml-[30px] max-lg:h-[1200px]">
 
           {/* div-1 */}
           <div className="h-[562px] w-[562px]">
@@ -101,21 +108,24 @@ export default function HOomePage(){
               <h1 className="h-[136px] w-[499px] font-bold text-[48px]">
                   <span className="text-[#FF9F0D]">We</span>Create the best foody product
               </h1>      
-              <p className="h-[48px] w-[526px] mt-[50px] font-normal text-[16px]">
+              <p className="h-[48px] w-[526px] mt-[50px] font-normal text-[16px] max-lg:w-[467px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
               </p>
 
-              <div className="h-[18px] w-[526px] mt-[100px] flex items-center font-normal text-[18px]">
+              <div className="h-[18px] w-[526px] mt-[100px] flex items-center font-normal text-[18px] 
+                              max-lg:text-[16px] max-lg:font-bold">
                   <div className="h-[12.24px] w-[17px] bg-[url('/images/tick.png')] bg-cover"> </div> 
                   <p className="ml-[10px]"> Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
               </div>      
               
-              <div className="h-[18px] w-[566px] mt-[40px] flex items-center font-normal text-[18px]">
+              <div className="h-[18px] w-[566px] mt-[40px] flex items-center font-normal text-[18px]
+                                max-lg:text-[16px] max-lg:font-bold">
                   <div className="h-[12.24px] w-[17px] bg-[url('/images/tick.png')] bg-cover"> </div> 
                   <p className="ml-[10px]"> Quisque diam pellentesque bibendum non dui volutpat fringilla </p>
               </div>  
 
-              <div className="h-[18px] w-[526px] mt-[40px] flex items-center  font-normal text-[18px]">
+              <div className="h-[18px] w-[526px] mt-[40px] flex items-center  font-normal text-[18px]
+                               max-lg:text-[16px] max-lg:font-bold ">
                   <div className="h-[12.24px] w-[17px] bg-[url('/images/tick.png')] bg-cover"> </div> 
                   <p className="ml-[10px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>  
@@ -127,13 +137,14 @@ export default function HOomePage(){
           </div>
 
           {/* div-2 */}
-          <div className="h-[526px] w-[660px]">
+          <div className="h-[526px] w-[660px] max-lg:mt-[100px] max-lg:w-[480px]">
 
-             <div className="h-[330px] w-[660px] bg-[url('/images/food-pro-1.png')] bg-cover"></div>
+             <div className="h-[330px] w-[660px] bg-[url('/images/food-pro-1.png')] bg-cover
+                             max-lg:w-[470px] max-lg:bg-center "></div>
  
-             <div className="h-[194px] w-[660px] flex justify-between mt-[20px]">
-               <div className="h-[194px] w-[322px] bg-[url('/images/food-pro-2.png')] bg-cover"></div>   
-               <div className="h-[194px] w-[322px] bg-[url('/images/food-pro-3.png')] bg-cover"></div>
+             <div className="h-[194px] w-[660px] flex justify-between mt-[20px] max-lg:w-[470px]">
+               <div className="h-[194px] w-[322px] bg-[url('/images/food-pro-2.png')] bg-cover max-lg:w-[225px] max-lg:bg-center"></div>   
+               <div className="h-[194px] w-[322px] bg-[url('/images/food-pro-3.png')] bg-cover max-lg:w-[225px] max-lg:bg-center"></div>
             </div>
 
           </div>
@@ -143,21 +154,24 @@ export default function HOomePage(){
 {/* 
 -------------------------------------------------------------------------------------------------
         container-3 -food-items */}
-      <div className="h-[489px] w-[1320px]  mt-[200px] ml-auto mr-auto">
+      <div className="h-[489px] w-[1320px]  mt-[200px] ml-auto mr-auto
+                      max-lg:mt-[200px] max-lg:block max-lg:ml-[-390px] max-lg:h-[1640px] ">
                 {/* div-1 */}
-          <div className="h-[40px] w-[177px] bg-[url('/images/cur-writing-3.png')] bg-cover ml-auto mr-auto"></div>
+          <div className="h-[40px] w-[177px] bg-[url('/images/cur-writing-3.png')] bg-cover ml-auto mr-auto
+            "></div>
           <h1 className="h-[56px] w-[496px] font-bold text-[48px] ml-auto mr-auto">
                   <span className="text-[#FF9F0D]">Ch</span>oose Food Iteam
           </h1>
 
                 {/* div-2 */}
-          <div className="h-[329px] w-[1320px] flex justify-between mt-[65px]">
+          <div className="h-[329px] w-[1320px] flex justify-between mt-[65px]
+                           max-lg:block max-lg:ml-[500px] max-lg:mt-[-25px]">
              <div className="h-[328px] w-[305px] bg-[url('/images/food-it-1.png')] bg-cover">
                  <div className="h-[97px] w-[206px] bg-[url('/images/dis-food-it.png')] bg-cover mt-[110px]"></div>
              </div>
-             <div className="h-[328px] w-[305px] bg-[url('/images/food-it-2.png')] bg-cover"></div>
-             <div className="h-[328px] w-[305px] bg-[url('/images/food-it-3.png')] bg-cover"></div>
-             <div className="h-[328px] w-[305px] bg-[url('/images/food-it-4.png')] bg-cover"></div>
+             <div className="h-[328px] w-[305px] bg-[url('/images/food-it-2.png')] bg-cover max-lg:mt-[40px]"></div>
+             <div className="h-[328px] w-[305px] bg-[url('/images/food-it-3.png')] bg-cover max-lg:mt-[40px]"></div>
+             <div className="h-[328px] w-[305px] bg-[url('/images/food-it-4.png')] bg-cover max-lg:mt-[40px]"></div>
 
           </div>
 
@@ -167,11 +181,11 @@ export default function HOomePage(){
 -------------------------------------------------------------------------------------------------
         container-4 -food-items-tastes */}
 
-      <div className="h-[562px] w-[1320px] flex justify-between ml-[295px] mt-[300px]">
+      <div className="h-[562px] w-[1320px] flex justify-between ml-[295px] mt-[300px] max-lg:h-[740px]  max-lg:mt-[150px] max-lg:ml-8">
 
          
           {/* div-1 */}
-        <div>
+        <div className="max-lg:hidden">
               {/* box-1 */}
           <div className="h-[356px] w-[660px] flex justify-between ">
              <div className="h-[356px] w-[362px] bg-[url('/images/food-tas-1.png')] bg-cover"></div>
@@ -194,10 +208,10 @@ export default function HOomePage(){
           <div className="h-[650px] w-[562px] mt-[50px]">
 
               <div className="h-[40px] w-[175px] bg-[url('/images/cur-writing-4.png')] bg-cover"></div>
-              <h1 className="h-[112px] w-[473px] font-bold text-[48px]">
+              <h1 className="h-[112px] w-[473px] font-bold text-[48px] max-lg:text-[40px] max-lg:w-[423px] max-lg:mt-[10px                                                                                           ]">
                   <span className="text-[#FF9F0D]">Ex</span>ta ordinary taste And Experienced 
               </h1>      
-              <p className="h-[120px] w-[526px] mt-[50px] font-normal text-[16px]">
+              <p className="h-[120px] w-[526px] mt-[50px] font-normal text-[16px] max-lg:w-[423px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.              
               </p>
                  
@@ -239,38 +253,38 @@ export default function HOomePage(){
         container-5- services
 */}
 
-   <div className="h-[469px] w-[1920px] mt-[600px]">
+   <div className="h-[469px] w-[1920px] mt-[600px] max-lg:mt-[200px] max-lg:w-[480px] max-lg:h-[1140px] ">
        
-       <div className="h-[247px] w-[1320px] ml-auto mr-auto flex justify-between">
+       <div className="h-[247px] w-[1320px] ml-auto mr-auto flex justify-between max-lg:w-[420px] max-lg:block max-lg:ml-[180px]" >
               {/* box-1 */}
            <div className="h-[247px] w-[218px]">
               <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-1.png')] bg-cover"></div>
-              <p className="font-normal text-[24px]">Professional Chefs</p>
-              <h2 className="font-bold text-[40px]">420</h2>
+              <p className="font-normal text-[24px] max-lg:ml-[-45px] max-lg:mt-[20px]">Professional Chefs</p>
+              <h2 className="font-bold text-[40px] max-lg:ml-[30px]">420</h2>
  
            </div>
           
            {/* box-2 */}
-           <div className="h-[247px] w-[162px]">
+           <div className="h-[247px] w-[162px] max-lg:mt-[50px]">
               <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-2.png')] bg-cover"></div>
-              <p className="font-normal text-[24px]">Items Of Food</p>
-              <h2 className="font-bold text-[40px]">320</h2>
+              <p className="font-normal text-[24px] max-lg:ml-[-25px] max-lg:mt-[20px]">Items Of Food</p>
+              <h2 className="font-bold text-[40px] max-lg:ml-[30px]">320</h2>
  
            </div> 
 
            {/* box-3 */}
-           <div className="h-[247px] w-[248px]">
+           <div className="h-[247px] w-[248px] max-lg:mt-[50px]">
               <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-3.png')] bg-cover"></div>
-              <p className="font-normal text-[24px]">Years Of Experienced</p>
-              <h2 className="font-bold text-[40px]">30+</h2>
+              <p className="font-normal text-[24px] max-lg:ml-[-55px] max-lg:mt-[20px]">Years Of Experienced</p>
+              <h2 className="font-bold text-[40px] max-lg:ml-[30px]">30+</h2>
  
            </div>
 
            {/* box-4 */}
-           <div className="h-[247px] w-[206px]">
+           <div className="h-[247px] w-[206px] max-lg:mt-[50px]">
               <div className="h-[124px] w-[124px] bg-[url('/images/exp-logo-4.png')] bg-cover"></div>
-              <p className="font-normal text-[24px]">Happy Customers</p>
-              <h2 className="font-bold text-[40px]">220</h2>
+              <p className="font-normal text-[24px] max-lg:ml-[-35px] max-lg:mt-[20px]">Happy Customers</p>
+              <h2 className="font-bold text-[40px] max-lg:ml-[30px]">220</h2>
  
            </div>
 
@@ -285,16 +299,17 @@ export default function HOomePage(){
         container-5- Menu
 */}
 
-   <div className="h-[656px] w-[1320px] mt-[200px] mr-auto ml-auto">
+   <div className="h-[656px] w-[1320px] mt-[200px] mr-auto ml-auto max-lg:mt-[200px] max-lg:ml-0 max-lg:mr-0   max-lg:h-[1550px]">
        <div className="h-[40px] w-[144px] mr-auto ml-auto
-           bg-[url('/images/cur-writing-5.png')] bg-cover">
+           bg-[url('/images/cur-writing-5.png')] bg-cover
+            max-lg:ml-[150px] max-lg:w-[164px]">
        </div>
 
-       <h2 className="font-bold text-[48px] ml-[475px]">
+       <h2 className="font-bold text-[48px] ml-[475px]  max-lg:ml-[60px]">
         <span className="text-[#ff9f0d]">Fr</span>om Our Menu
        </h2>
 
-       <div className="h-[28px] w-[1056px] flex justify-between items-center mt-[50px]">
+       <div className="h-[28px] w-[1056px] flex justify-between items-center mt-[50px] max-lg:ml-[10px] max-lg:w-[470px] max-lg:text-[14px]">
          <a className="text-[#ff9f0d]">Breakfast</a>
          <a>Lunch</a>
          <a>Dinner</a>
@@ -304,14 +319,14 @@ export default function HOomePage(){
          <a>Soups</a>
        </div>
 
-       <div className="w-[1320px] h-[406px] flex justify-between mt-[50px]">
+       <div className="w-[1320px] h-[406px] flex justify-between mt-[50px] max-lg:block">
           {/* box-1 */}
           <div className="w-[515px] h-[406px] bg-[url('/images/main-menu.png')] bg-cover">
                  <div className="w-[366px] h-[362px] bg-[url('/images/main-menu-sub.png')] bg-cover mt-[30px] ml-[50px]"></div>
           </div>
 
             {/* box-2 */}
-          <div className="w-[386px] h-[406px] ">
+          <div className="w-[386px] h-[406px] max-lg:ml-[50px] max-lg:mt-[50px] ">
                      {/* dabba-1 */}
                <div className="w-[386px] h-[79px] flex justify-between ">
                     <div className="w-[80px] h-[79px] bg-[url('/images/menu1.png')] bg-cover"></div>
@@ -358,7 +373,7 @@ export default function HOomePage(){
           </div>
 
             {/* box-3 */}
-            <div className="w-[386px] h-[406px] ">
+            <div className="w-[386px] h-[406px] max-lg:ml-[50px] max-lg:mt-[50px]">
                      {/* dabba-1 */}
                <div className="w-[386px] h-[79px] flex justify-between ">
                     <div className="w-[80px] h-[79px] bg-[url('/images/menu5.png')] bg-cover"></div>
@@ -412,20 +427,21 @@ export default function HOomePage(){
         container-6- cheifs
 */}
 
-    <div className="h-[656px] w-[1320px] mt-[200px] mr-auto ml-auto">
+    <div className="h-[656px] w-[1320px] mt-[200px] mr-auto ml-auto max-lg:w-[480px] max-lg:mt-[200px]  max-lg:h-[1900px]">
         <div className="h-[40px] w-[56px] mr-auto ml-auto 
             bg-[url('/images/cur-writing-6.png')] bg-cover">
         </div>
 
-        <h2 className="font-bold text-[48px] ml-[475px]">
+        <h2 className="font-bold text-[48px] ml-[475px] max-lg:ml-[70px]">
           <span className="text-[#ff9f0d]">Me</span>et Our Chef
         </h2>       
 
-        <div className="h-[391px] w-[1320px] flex justify-between mt-[65px]">
-             <div className="h-[391px] w-[312px] bg-[url('/images/chef-1.png')] bg-cover"></div>
-             <div className="h-[391px] w-[312px] bg-[url('/images/chef-2.png')] bg-cover"></div>
-             <div className="h-[391px] w-[312px] bg-[url('/images/chef-3.png')] bg-cover"></div>
-             <div className="h-[391px] w-[312px] bg-[url('/images/chef-4.png')] bg-cover"></div>
+        <div className="h-[391px] w-[1320px] flex justify-between mt-[65px]
+                        max-lg:block max-lg:ml-[85px]">
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-1.png')] bg-cover max-lg:mt-[25px]"></div>
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-2.png')] bg-cover max-lg:mt-[45px]"></div>
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-3.png')] bg-cover max-lg:mt-[45px]"></div>
+             <div className="h-[391px] w-[312px] bg-[url('/images/chef-4.png')] bg-cover max-lg:mt-[45px]"></div>
          </div>
 
     </div>
@@ -435,17 +451,19 @@ export default function HOomePage(){
         container-7- cutomer expre
 */}
 
-<div className="h-[770px] w-[1273px] mt-[200px] mr-auto ml-auto">
+<div className="h-[770px] w-[1273px] mt-[200px] mr-auto ml-auto max-lg:hidden">
     
-    <div className="h-[40px] w-[128px]
+    <div className="h-[40px] w-[128px] 
        bg-[url('/images/cur-writing-7.png')] bg-cover">
     </div>
  
     <h2 className="font-bold text-[48px]">What our client are saying</h2>
 
-    <div className="h-[600.89px] w-[868.47px] bg-[url('/images/cus-exp-bg.png')] bg-cover ml-auto mr-auto mt-[50px]">
+    <div className="h-[600.89px] w-[868.47px] bg-[url('/images/cus-exp-bg.png')] bg-cover ml-auto mr-auto mt-[50px]
+                   ">
          <div className="h-[485.89px] w-[696.57px] ml-[125px]
-             bg-[url('/images/cus-exp.png')] bg-cover">
+             bg-[url('/images/cus-exp.png')] bg-cover
+              ">
          </div>
     </div>
 </div>
@@ -459,7 +477,9 @@ export default function HOomePage(){
 
      <div className="h-[560px] w-[1920px] mt-[200px] 
 
-           bg-[url('/images/provide.png')] bg-cover">
+           bg-[url('/images/provide.png')] bg-cover
+           
+           max-lg:hidden">
 
      </div>
     
@@ -469,16 +489,17 @@ export default function HOomePage(){
         container-9-latest NEw
 */}
 
-   <div className="h-[732px] w-[1320px] mt-[200px] mr-auto ml-auto">
+   <div className="h-[732px] w-[1320px] mt-[200px] mr-auto ml-auto
+   max-lg:w-[480px] max-lg:mt-[200px]  max-lg:h-[2000px]">
         <div className="h-[40px] w-[124px] mr-auto ml-auto 
             bg-[url('/images/cur-writing-8.png')] bg-cover">
         </div>
 
-        <h2 className="font-bold text-[48px] ml-[445px]">
+        <h2 className="font-bold text-[48px] ml-[445px] max-lg:ml-[30px] max-lg:text-[44px]">
           <span className="text-[#ff9f0d]">La</span>test News & Blog
         </h2>       
     
-        <div className="h-[569px] w-[1320px] flex justify-between mt-[50px]">
+        <div className="h-[569px] w-[1320px] flex justify-between mt-[50px] max-lg:block max-lg:ml-[25px]">
 
             {/* div-1 */}
             <div className="h-[569px] w-[424px] border">
@@ -499,7 +520,7 @@ export default function HOomePage(){
             </div>
 
             {/* div-2 */}
-            <div className="h-[569px] w-[424px] border">
+            <div className="h-[569px] w-[424px] border max-lg:mt-[50px]">
                <div className="h-[349px] w-[423px] bg-[url('/images/news2.png')] bg-cover"></div>
                
                <p className="font-normal text-[16px] mt-[30px] text-[#ff9f0d] ml-[40px]">10 February 2022 </p>
@@ -517,7 +538,7 @@ export default function HOomePage(){
             </div>
 
             {/* div-3 */}
-            <div className="h-[569px] w-[424px] border">
+            <div className="h-[569px] w-[424px] border max-lg:mt-[50px]">
                <div className="h-[349px] w-[423px] bg-[url('/images/news3.png')] bg-cover"></div>
                
                <p className="font-normal text-[16px] mt-[30px] text-[#ff9f0d] ml-[40px]">10 February 2022 </p>
@@ -542,20 +563,20 @@ export default function HOomePage(){
         container-10-FOOTER
 */}
 
-  <div className="h-[740.12px] w-[1920px] mt-[200px] ">
+  <div className="h-[740.12px] w-[1920px] mt-[200px] max-lg:w-[480px] max-lg:mt-[200px] max-lg:h-[2150px] ">
        
        {/* div-1 */}
-       <div className="h-[142.62px] w-[1170px] flex justify-between ml-auto mr-auto">
+       <div className="h-[142.62px] w-[1170px] flex justify-between ml-auto mr-auto  max-lg:block max-lg:ml-[40px]">
                     {/* box-1 */}
-          <div className="h-[80px] w-[1170px] font-bold text-[32px] flex justify-between ">
+          <div className="h-[80px] w-[1170px] font-bold max-lg:text-[28px] text-[32px] flex justify-between ">
               <div>
-                <h2><span className="text-[#ff9f0d]">St</span>ill You Need Our Support ?</h2>
-                <p className="font-normal text-[16px] mt-[20px]">Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                <h2><span className="text-[#ff9f0d] ">St</span>ill You Need Our Support ?</h2>
+                <p className="font-normal text-[16px] max-lg:text-[14px] max-lg:mt-[10px] mt-[20px]">Don’t wait make a smart & logical quote here. Its pretty easy.</p>
               </div>
           </div>
 
                    {/* box-2 */}
-          <div className="h-[52px] w-[599px] flex ">
+          <div className="h-[52px] w-[599px] flex max-lg:mt-[10px]">
              <input className="bg-[#ff9f0d] text-[#ffffff] h-[52px] pl-[20px]" type="text" placeholder="Enter Your Email" />
              
              <button className="text-[#ff9f0d] bg-[#ffffff] h-[52px] w-[163px]">
@@ -566,7 +587,7 @@ export default function HOomePage(){
        </div>
 
        {/* div-2 hr-line */}
-       <div className="h-[4px] w-[1170px] ml-auto mr-auto
+       <div className="h-[4px] w-[1170px] ml-auto mr-auto max-lg:mt-[50px]
            bg-[url('/images/orange-line.png')] bg-cover">
 
        </div>
@@ -574,7 +595,7 @@ export default function HOomePage(){
 
 
        {/* div-3  */}
-      <div className="h-[367px] w-[1320px] ml-auto mr-auto flex justify-between mt-[100px]">
+      <div className="h-[367px] w-[1320px] ml-auto mr-auto flex justify-between mt-[100px] max-lg:block max-lg:ml-[85px]">
          {/* box-1 */}
          <div className="h-[367px] w-[312px]">
              <h2 className="font-bold text-[24px]">About Us.</h2>
@@ -595,7 +616,7 @@ export default function HOomePage(){
          </div>
 {/*----------------------------------------------------------
           box-2 */}
-          <div className="h-[367px] w-[149px]">
+          <div className="h-[367px] w-[149px] max-lg:mt-[0px]">
              <ul>
                <h2 className="font-bold text-[20px] ">Useful Links</h2>
                <li className="mt-[20px] text-[20px]"><a>About</a></li>
@@ -609,7 +630,7 @@ export default function HOomePage(){
 
 {/*----------------------------------------------------------
           box-3 */}
-          <div className="h-[367px] w-[170px]">
+          <div className="h-[367px] w-[170px] max-lg:mt-[60px]">
              <ul>
                <h2 className="font-bold text-[20px] ">Help?</h2>
                <li className="mt-[17px] text-[20px]"><a>FAQ</a></li>
@@ -623,7 +644,7 @@ export default function HOomePage(){
 
 {/*----------------------------------------------------------
           box-3 */}
-          <div className="h-[367px] w-[244px]">
+          <div className="h-[367px] w-[244px] max-lg:mt-[60px]">
              <h2 className="font-bold text-[20px] ">Recent Post</h2>
             
              <div className="w-[244px] h-[53px] flex justify-between mt-[20px]">
@@ -654,15 +675,16 @@ export default function HOomePage(){
       </div>
 
       {/* div-4 */}
-      <div className="h-[100px] w-[1920px] bg-[#4f4f4f] ">
+      <div className="h-[100px] w-[1920px] bg-[#4f4f4f] max-lg:w-[480px] max-lg:mt-[1300px] max-lg:h-[200px] ">
          
-         <div className="mt-[40px] pt-[50px] h-[34px] w-[1320px] flex justify-between items-center ml-auto mr-auto">
+         <div className="mt-[40px] pt-[50px] h-[34px] w-[1320px] flex justify-between items-center ml-auto mr-auto
+         max-lg:block max-lg:ml-[45px]">
             
             {/* box-1 */}
             <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
 
-            {/* box-2 */}
-            <div className="h-[32px] w-[240px]
+            {/* box-2 */} 
+            <div className="h-[32px] w-[240px] max-lg:mt-[50px] max-lg:ml-[75px]
               bg-[url('/images/social-icon.png')] bg-cover">
 
             </div>
