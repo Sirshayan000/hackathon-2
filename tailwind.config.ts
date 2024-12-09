@@ -14,12 +14,16 @@ export default {
       },
 
       screens: {
-  			sm: '481px',
+  			
   			md: '769px',
-        lg: '1025px',
-  			'max-lg': {
-  				'max': '480px'
-  			},
+
+        'sm': { 'raw': '(min-width: 481px) and (max-width: 768px)' },
+        
+
+        'max-lg':{
+           'max': '480px'
+        },
+
     },
 
    }
